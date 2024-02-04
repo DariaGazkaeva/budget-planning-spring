@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 25px;
+    color: #222623;
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 25px;
+    color: #3e4f3f;
+}
+
+div.donut, div.donuts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+div.donut {
+    flex-direction: column;
+}
+
+.statistic-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.columns {
+    margin-top: 2%;
+}

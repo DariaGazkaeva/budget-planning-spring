@@ -1,0 +1,14 @@
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.columns__half {
+    display: flex;
+    flex-direction: column;
+}
+
+.columns__half + .columns__half {
+    margin-left: 2%;
+    margin-right: 2%;
+}
