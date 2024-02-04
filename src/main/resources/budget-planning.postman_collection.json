@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "ab15ac59-1258-450a-aec1-d1d1540d3541",
+		"name": "budget-planning",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27185450"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/category/42",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=7CAA11440970E866D860663981B44E7D",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/category/42",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"category",
+						"42"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/category/?name=TestIncomeCategory&income=true",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "JSESSIONID=7CAA11440970E866D860663981B44E7D",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/category/?name=TestIncomeCategory&income=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"category",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TestIncomeCategory"
+						},
+						{
+							"key": "income",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

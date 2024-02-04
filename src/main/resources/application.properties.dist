@@ -1,0 +1,19 @@
+db.url=
+db.username=postgres
+db.password=
+db.driver=org.postgresql.Driver
+
+#Hibernate Configuration:
+hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+hibernate.show_sql=true
+hibernate.hbm2ddl.auto=update
+hibernate.enable_lazy_load_no_trans=true
+
+spring.jpa.open-in-view=false
+
+application.dev.authentication.username=
+application.dev.authentication.password=
+
+api.url=https://currate.ru/api/
+api.key=
+
